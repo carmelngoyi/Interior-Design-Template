@@ -8,16 +8,17 @@ body{
    width: 100%;
    height: 100%;
    font-family: "Poppins", sans-serif;
+   font-size: 16px;
 }
 
 .main-div{
     width:100% ;
-    height: 600vh;
+    height: 660vh;
     border: 3px solid blue;
 }
 
 .navbar-div{
-    width: 300px;
+    width: 270px;
     height: 100%;
     border: 2px solid red;
     background-color: #f44336;
@@ -31,20 +32,20 @@ body{
   width: 150px ;
   height: 100px;
   border: 2px solid white;
-  font-weight: 300px;
-  margin-top: 100px; 
+  font-weight: 500;
+  margin-top: 95px; 
   margin-left: 20px;
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .navbar{
     width: 150px;
     height: 300px;
     border: 2px solid white;
-    font-size: 18px;
-    font-weight: 500px;
+    font-size: 17px;
+    font-weight: 600;
     margin-left: 20px;
-    margin-top: 60px;
+    margin-top: 30px;
     line-height: 35px;
 }
 
@@ -53,10 +54,10 @@ body{
 }
 
 .home-div{
-    width: 1039px;
+    width: 945px;
     height: 25vh;
     border: 2px solid green;
-    margin-left: 300px;
+    margin-left: 270px;
 }
 
 h1{
@@ -69,10 +70,10 @@ h1{
     margin-left: 50px;
 }
 .showcase-div{
-    width: 1039px;
+    width: 945px;
     height: 170vh;
     border: 2px solid brown;
-    margin-left: 300px;
+    margin-left: 270px;
 }
 
 h2{
@@ -97,90 +98,102 @@ h2{
 
 .images{
     width: 1039;
-    height: 150vh;
+    height: 160vh;
    border: 2px solid black;
    margin-top: 30px;
 }
 
 .kitchen{
-    width: 450px;
-    margin-left: 35px;
+    width: 415px;
+    margin-left: 30px;
 }
 
 .rooms{
-    width:450px ;
-    margin-left: 35px;
+    width:415px ;
+    margin-left: 30px;
     
 }
 
 .services-div{
-    width: 1039px;
+    width: 945px;
     height: 70vh;
     border: 2px solid maroon ;
-    margin-left: 300px;
+    margin-left: 270px;
+    margin-top: 100px;
 }
 
 .line{
 
 }
 p{
-    width: 1010px;
+    width: 895px;
     border: 2px solid black;
     padding-left: 50px;
     margin-top: 10px;
+    font-size: 14px;
     letter-spacing: 1px;
 }
 
 .designers-div{
-    width: 1039px;
-    height: 130vh;
+    width: 945px;
+    height: 140vh;
     border: 2px solid yellow;
-    margin-left: 300px;
+    margin-left: 270px;
 }
 
 .designers{
     font-weight: 600;
+    margin-bottom: 40px;
 }
 
 .names{
     display: flex;
 }
 .team2{
-width: 300px;
-height: 200px;
+width: 270px;
+height: 180px;
 margin-top: 5px;
+margin-left: 45px;
 border: 2px solid black;
 }
 
 .john{
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 180px;
+    margin-left: 47px;
+    background-color: rgb(243, 240, 240);
     border: 2px solid purple;
 }
 
 .team1{
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 180px;
     margin-top: 5px;
+    margin-left: 15px;
     border: 2px solid black;
 }
 
 .jane{
-    width: 300px;
-    height: 200px;
-    border: 2px solid purple;
+    width: 270px;
+    height: 180px;
+    margin-left: 15px;
+    background-color: rgb(243, 240, 240);
+    border: 2px solid green;
 }
 
 .team3{
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 180px;
     margin-top: 5px;
+    margin-right: 15px;
     border: 2px solid black;
 }
 
 .mike{
-    width: 300px;
-    height: 200px;
+    width: 270px;
+    height: 180px;
+    margin-left: 23px;
+    background-color: rgb(243, 240, 240);
     border: 2px solid purple;
 }
 .teams{
@@ -191,29 +204,67 @@ border: 2px solid black;
 }
 
 .team{
-    width: 900px;
-    height: 205px;
+    width: 910px;
+    height: 185px;
     border: 2px solid black;
     display: flex;
 }
 
 .packages-div{
-    width: 1039px;
-    height: 120vh;
+    width: 945px;
+    height: 130vh;
     border: 2px solid aqua;
     margin-left: auto;
+    margin-top: 60px;
 }
 
 .contact-div{
-    width: 1039px;
+    width: 945px;
     height: 100vh;
     border: 2px solid purple;
     margin-left: auto; 
+    margin-top: 10px;
 }
 
 .footer-div{
-  width: 1039px;
+  width: 945px;
   height: 19vh;
   border: 2px solid salmon ;
-  margin-left: aoto;
+  margin-left: auto;
+  margin-top: 20px;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+span{
+    color: grey;
+    margin-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.tables{
+    width: 900px;
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    border: 2px solid orange;
+}
+
+th{
+    width: 400px;
+    height: 100px;
+}
+
+.basic{
+    background-color: rgb(99, 98, 98);
+}
+
+.pro{
+    background-color: #f44336;
 }
