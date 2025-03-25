@@ -49,6 +49,11 @@ body{
     line-height: 35px;
 }
 
+.navbar :hover{
+   background-color: #ffffff;
+    color: black;
+}
+
 .list{
     list-style-type: none;
 }
@@ -122,9 +127,6 @@ h2{
     margin-top: 100px;
 }
 
-.line{
-
-}
 p{
     width: 895px;
     border: 2px solid black;
@@ -196,12 +198,12 @@ border: 2px solid black;
     background-color: rgb(243, 240, 240);
     border: 2px solid purple;
 }
-.teams{
-    /* width: 300px;
+/* .teams{
+    width: 300px;
     border: 2px solid black;
     gap: 15px;
-    display: flex; */
-}
+    display: flex;
+} */
 
 .team{
     width: 910px;
@@ -211,27 +213,35 @@ border: 2px solid black;
 }
 
 .packages-div{
-    width: 945px;
-    height: 130vh;
+    width: 940px;
+    height: 140vh;
     border: 2px solid aqua;
     margin-left: auto;
     margin-top: 60px;
 }
 
 .contact-div{
-    width: 945px;
+    width: 940px;
     height: 100vh;
     border: 2px solid purple;
     margin-left: auto; 
-    margin-top: 10px;
+    margin-top: 70px;
 }
 
 .footer-div{
-  width: 945px;
+  width: 940px;
   height: 19vh;
   border: 2px solid salmon ;
   margin-left: auto;
-  margin-top: 20px;
+  margin-top: 90px;
+  text-align: right;
+  background-color: #f1eeee;
+  font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
 }
 
 h3{
@@ -249,22 +259,126 @@ span{
 }
 
 .tables{
-    width: 900px;
-    height: 500px;
+    width: 850px;
+    height: 540px;
     margin-top: 10px;
+    margin-left: 45px;
     display: flex;
     border: 2px solid orange;
 }
 
 th{
-    width: 400px;
-    height: 100px;
+    width: 410px;
+    height: 90px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
 }
 
+.basic-div{
+    width: 410px;
+  height:535px ;
+  border: 1px solid black;
+}
 .basic{
     background-color: rgb(99, 98, 98);
+    
+
+}
+
+.pro-div{
+  width: 410px;
+  height:535px ;
+  border: 1px solid black;
+  margin-left: 10px;
 }
 
 .pro{
     background-color: #f44336;
+   
+}
+
+td{
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(231, 230, 230); 
+     
+}
+
+.form{
+    width: 850px;
+    height: 300px;
+    margin-left: 50px;
+    border: 2px solid sandybrown;
+}
+
+.amount{
+    font-size: 30px;
+}
+
+hr{
+    background-color: grey;
+}
+
+.button-2{
+    width: 100px;
+    height: 45px;
+    border: none;
+    background-color: #f44336;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.button-1{
+    width: 100px;
+    height: 45px;
+    border: none;
+    color: black;
+    font-size: 15px;
+}
+
+.buttons{
+    height: 80px;
+}
+
+.buttons :hover{
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input{
+    width: 845px;
+    height: 35px;
+}
+
+.name-label{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.email{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.message{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.send-mssg{
+    width: 845px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #f44336;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.send-mssg :hover{
+    background-color: grey;
+    color: black;
 }
